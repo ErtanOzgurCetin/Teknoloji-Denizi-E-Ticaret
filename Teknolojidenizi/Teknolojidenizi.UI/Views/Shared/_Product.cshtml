@@ -1,0 +1,23 @@
+﻿@model Product
+<div class="product-item">
+	<div class="pi-pic">
+		@if (Model.ProductPictures.Any())
+		{
+			<img src="@Model.ProductPictures.FirstOrDefault().Picture" alt="@Model.Name">
+
+		}
+		else
+		{
+			<img src="/img/resimler-hazirlaniyor-1000x780.jpg" alt="@Model.Name"/>
+		}
+		<div class="pi-links">
+			<a asp-controller="Product" asp-action="Detail" asp-route-name="@GeneralTools.GetURL(Model.Name)" asp-route-id="@Model.ID" class="add-card"><i class="fa fa-sign-in" aria-hidden="true"></i><span>Ürün Detayı</span></a>
+			
+		</div>
+	</div>
+	<div class="pi-text">
+		<h5>@Model.Name</h5>
+		<h6>@String.Format("{0:N}",Model.Price)</h6>
+		<p>@Model.Description</p>
+	</div>
+</div>

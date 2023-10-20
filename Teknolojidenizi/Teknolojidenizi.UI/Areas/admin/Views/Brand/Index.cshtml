@@ -1,0 +1,44 @@
+﻿@model IQueryable<Brand>
+<div class="right_col" role="main">
+	<div class="">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 ">
+				<div class="x_panel">
+					<div class="x_content">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="card-box table-responsive">
+									<p class="text-muted font-13 m-b-30">
+										<h2>Marka Yönetimi</h2>
+										<a asp-controller="Brand" asp-action="New" class="btn btn-danger float-right "> Yeni Marka </a>
+									</p>
+									<table id="datatable" class="table table-striped table-bordered" style="width:100%">
+										<thead>
+											<tr>
+												<th>Marka Adı</th>
+
+											</tr>
+										</thead>
+										<tbody>
+											@foreach (Brand b in Model)
+											{
+												<tr>
+													<td><a asp-controller="Brand" asp-action="Edit" asp-route-id="@b.ID">@b.Name</a></td>
+
+													<td><a class="btn btn-warning" asp-controller="Brand" asp-action="Delete" asp-route-id="@b.ID">SİL</a></td>
+												</tr>
+											}
+
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</div> 

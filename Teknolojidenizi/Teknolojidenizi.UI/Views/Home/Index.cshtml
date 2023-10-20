@@ -1,0 +1,70 @@
+﻿@model IndexVM
+
+
+
+<!-- Hero section -->
+<section class="hero-section">
+	<div class="hero-slider owl-carousel">
+		@foreach (Slide s in Model.Slides)
+		{
+			<div class="hs-item set-bg" data-setbg="@s.Picture">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6 col-lg-7 text-white">
+							@* <span >@s.Slogan</span>
+							<h2>@s.Title</h2>
+							<p>@s.Description</p> *@
+							@* <a href="@s.Link" class="site-btn sb-line">İncele</a> *@
+						</div>
+					</div>
+					@* <div class="offer-card text-white">
+						<h3>@String.Format("{0:N}",s.Price)</h3>
+						<span>TL</span>
+						<p>HEMEN AL</p>
+					</div> *@
+				</div>
+			</div>
+		}
+
+	</div>
+	<div class="container">
+		<div class="slide-num-holder" id="snh-1"></div>
+	</div>
+</section>
+<!-- Hero section end -->
+
+<!-- letest product section -->
+<section class="top-letest-product-section">
+	<div class="container">
+		<div class="section-title">
+			<h2>Son Eklenen Ürünler</h2>
+		</div>
+		<div class="product-slider owl-carousel">
+			@foreach (Product p in Model.LatestProducts)
+			{
+				<partial name="_Product" model="@p"/>
+			}
+		</div>
+	</div>
+</section>
+<!-- letest product section end -->
+<!-- Product filter section -->
+<section class="product-filter-section">
+	<div class="container">
+		<div class="section-title">
+			<h2>En Çok Satan Ürünler</h2>
+		</div>
+	
+		<div class="row">
+			@foreach (Product p in Model.SalesProducts)
+			{
+				<div class="col-lg-3 col-sm-6">
+					<partial name="_Product" model="@p" />
+				</div>
+
+			}
+		</div>
+		
+	</div>
+</section>
+<!-- Product filter section end -->

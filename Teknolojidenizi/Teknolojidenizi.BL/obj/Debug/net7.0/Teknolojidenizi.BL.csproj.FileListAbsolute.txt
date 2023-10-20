@@ -1,0 +1,15 @@
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\bin\Debug\net7.0\Teknolojidenizi.BL.deps.json
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\bin\Debug\net7.0\Teknolojidenizi.BL.dll
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\bin\Debug\net7.0\Teknolojidenizi.BL.pdb
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\obj\Debug\net7.0\Teknolojidenizi.BL.csproj.AssemblyReference.cache
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\obj\Debug\net7.0\Teknolojidenizi.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\obj\Debug\net7.0\Teknolojidenizi.BL.AssemblyInfoInputs.cache
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\obj\Debug\net7.0\Teknolojidenizi.BL.AssemblyInfo.cs
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\obj\Debug\net7.0\Teknolojidenizi.BL.csproj.CoreCompileInputs.cache
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\obj\Debug\net7.0\Teknolojidenizi.BL.dll
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\obj\Debug\net7.0\refint\Teknolojidenizi.BL.dll
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\obj\Debug\net7.0\Teknolojidenizi.BL.pdb
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\obj\Debug\net7.0\ref\Teknolojidenizi.BL.dll
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\bin\Debug\net7.0\Teknolojidenizi.DAL.dll
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\bin\Debug\net7.0\Teknolojidenizi.DAL.pdb
+C:\Users\matat\source\repos\Teknolojidenizi\Teknolojidenizi.BL\obj\Debug\net7.0\Teknolojidenizi.BL.csproj.CopyComplete
